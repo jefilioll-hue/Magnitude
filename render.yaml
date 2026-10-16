@@ -1,0 +1,19 @@
+# Render (https://render.com) — offre gratuite.
+# Le jeu est déjà compilé dans dist/ : aucune installation, Render lance seulement le serveur.
+# Le service s'endort après 15 min sans visite (premier chargement ensuite : environ une minute)
+# et les salons en cours sont perdus au redémarrage.
+services:
+  - type: web
+    name: magnitude
+    runtime: node
+    plan: free
+    buildCommand: echo "Jeu déjà compilé dans dist/"
+    startCommand: node dist/server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: DATA_DIR
+        value: ""
+      - key: TRUST_PROXY
+        value: "1"

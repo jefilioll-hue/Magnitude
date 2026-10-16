@@ -1,0 +1,324 @@
+{
+ "version": 1791929791,
+ "sampleRate": 48000,
+ "sounds": {
+  "lobby": {
+   "kind": "music",
+   "bpm": 96,
+   "loopStart": 0.0,
+   "loopEnd": 40.0,
+   "duration": 40.0,
+   "lufs": -18.0,
+   "truePeak": -2.1,
+   "renderSeconds": 25.5
+  },
+  "results": {
+   "kind": "music",
+   "bpm": 120,
+   "loopStart": 0.0,
+   "loopEnd": 32.0,
+   "duration": 32.0,
+   "lufs": -16.5,
+   "truePeak": -6.6,
+   "renderSeconds": 17.5
+  },
+  "st_bad": {
+   "kind": "sfx",
+   "duration": 2.8,
+   "lufs": -17.0,
+   "truePeak": -4.4,
+   "renderSeconds": 0.7
+  },
+  "st_bet": {
+   "kind": "sfx",
+   "duration": 1.8,
+   "lufs": -16.3,
+   "truePeak": -2.7,
+   "renderSeconds": 0.5
+  },
+  "st_contest": {
+   "kind": "sfx",
+   "duration": 1.8,
+   "lufs": -16.4,
+   "truePeak": -0.9,
+   "renderSeconds": 0.4
+  },
+  "st_defeat": {
+   "kind": "sfx",
+   "duration": 6.5,
+   "lufs": -18.0,
+   "truePeak": -6.8,
+   "renderSeconds": 1.3
+  },
+  "st_double": {
+   "kind": "sfx",
+   "duration": 1.8,
+   "lufs": -15.6,
+   "truePeak": -2.2,
+   "renderSeconds": 0.5
+  },
+  "st_draw": {
+   "kind": "sfx",
+   "duration": 4.5,
+   "lufs": -17.0,
+   "truePeak": -6.6,
+   "renderSeconds": 1.3
+  },
+  "st_gamestart": {
+   "kind": "sfx",
+   "duration": 5.5,
+   "lufs": -13.5,
+   "truePeak": -2.2,
+   "renderSeconds": 3.8
+  },
+  "st_good": {
+   "kind": "sfx",
+   "duration": 2.6,
+   "lufs": -16.1,
+   "truePeak": -5.3,
+   "renderSeconds": 0.6
+  },
+  "st_hint": {
+   "kind": "sfx",
+   "duration": 1.4,
+   "lufs": -18.7,
+   "truePeak": -3.9,
+   "renderSeconds": 0.4
+  },
+  "st_join": {
+   "kind": "sfx",
+   "duration": 1.2,
+   "lufs": -20.2,
+   "truePeak": -11.4,
+   "renderSeconds": 0.4
+  },
+  "st_joker": {
+   "kind": "sfx",
+   "duration": 2.0,
+   "lufs": -16.8,
+   "truePeak": -5.2,
+   "renderSeconds": 0.7
+  },
+  "st_leave": {
+   "kind": "sfx",
+   "duration": 1.2,
+   "lufs": -21.2,
+   "truePeak": -14.0,
+   "renderSeconds": 0.3
+  },
+  "st_lock": {
+   "kind": "sfx",
+   "duration": 1.2,
+   "lufs": -17.7,
+   "truePeak": -5.6,
+   "renderSeconds": 0.4
+  },
+  "st_pile": {
+   "kind": "sfx",
+   "duration": 5.5,
+   "lufs": -13.0,
+   "truePeak": -2.8,
+   "renderSeconds": 2.4
+  },
+  "st_pile_shared": {
+   "kind": "sfx",
+   "duration": 3.6,
+   "lufs": -15.5,
+   "truePeak": -5.7,
+   "renderSeconds": 1.2
+  },
+  "st_prime": {
+   "kind": "sfx",
+   "duration": 4.2,
+   "lufs": -14.0,
+   "truePeak": -0.4,
+   "renderSeconds": 2.5
+  },
+  "st_round": {
+   "kind": "sfx",
+   "duration": 2.8,
+   "lufs": -16.0,
+   "truePeak": -0.6,
+   "renderSeconds": 1.4
+  },
+  "st_streak": {
+   "kind": "sfx",
+   "duration": 1.6,
+   "lufs": -18.1,
+   "truePeak": -6.8,
+   "renderSeconds": 0.6
+  },
+  "st_suspense": {
+   "kind": "sfx",
+   "duration": 2.6,
+   "lufs": -16.0,
+   "truePeak": -2.9,
+   "renderSeconds": 0.8
+  },
+  "st_suspense_short": {
+   "kind": "sfx",
+   "duration": 1.4,
+   "lufs": -16.0,
+   "truePeak": -2.9,
+   "renderSeconds": 0.8
+  },
+  "st_swap": {
+   "kind": "sfx",
+   "duration": 1.4,
+   "lufs": -18.0,
+   "truePeak": -4.6,
+   "renderSeconds": 0.5
+  },
+  "st_tiebreak": {
+   "kind": "sfx",
+   "duration": 3.5,
+   "lufs": -15.2,
+   "truePeak": -1.0,
+   "renderSeconds": 0.7
+  },
+  "st_timeup": {
+   "kind": "sfx",
+   "duration": 1.8,
+   "lufs": -15.3,
+   "truePeak": -1.6,
+   "renderSeconds": 0.4
+  },
+  "st_victory": {
+   "kind": "sfx",
+   "duration": 10.0,
+   "lufs": -13.0,
+   "truePeak": -1.6,
+   "renderSeconds": 4.8
+  },
+  "theme": {
+   "kind": "music",
+   "bpm": 120,
+   "loopStart": 8.0,
+   "loopEnd": 56.0,
+   "duration": 56.0,
+   "lufs": -16.7,
+   "truePeak": -3.5,
+   "renderSeconds": 51.4
+  },
+  "think_a": {
+   "kind": "layer",
+   "group": "think",
+   "bpm": 120,
+   "loopStart": 0.0,
+   "loopEnd": 32.0,
+   "duration": 32.0,
+   "lufs": -19.4,
+   "truePeak": -3.9,
+   "renderSeconds": 13.5
+  },
+  "think_b": {
+   "kind": "layer",
+   "group": "think",
+   "bpm": 120,
+   "loopStart": 0.0,
+   "loopEnd": 32.0,
+   "duration": 32.0,
+   "lufs": -19.0,
+   "truePeak": -4.0,
+   "renderSeconds": 8.5
+  },
+  "ui_back": {
+   "kind": "ui",
+   "duration": 0.8,
+   "lufs": -24.0,
+   "truePeak": -8.2,
+   "renderSeconds": 0.3
+  },
+  "ui_click": {
+   "kind": "ui",
+   "duration": 0.69,
+   "lufs": -25.2,
+   "truePeak": -9.0,
+   "renderSeconds": 0.3
+  },
+  "ui_copy": {
+   "kind": "ui",
+   "duration": 1.1,
+   "lufs": -22.0,
+   "truePeak": -11.4,
+   "renderSeconds": 0.3
+  },
+  "ui_error": {
+   "kind": "ui",
+   "duration": 0.88,
+   "lufs": -21.9,
+   "truePeak": -13.8,
+   "renderSeconds": 0.2
+  },
+  "ui_hover": {
+   "kind": "ui",
+   "duration": 0.65,
+   "lufs": -35.6,
+   "truePeak": -19.8,
+   "renderSeconds": 0.2
+  },
+  "ui_key": {
+   "kind": "ui",
+   "duration": 0.65,
+   "lufs": -30.6,
+   "truePeak": -8.9,
+   "renderSeconds": 0.2
+  },
+  "ui_open": {
+   "kind": "ui",
+   "duration": 0.3,
+   "lufs": null,
+   "truePeak": -13.2,
+   "renderSeconds": 0.2
+  },
+  "ui_score": {
+   "kind": "ui",
+   "duration": 0.72,
+   "lufs": -28.8,
+   "truePeak": -15.6,
+   "renderSeconds": 0.2
+  },
+  "ui_select": {
+   "kind": "ui",
+   "duration": 1.2,
+   "lufs": -20.9,
+   "truePeak": -8.7,
+   "renderSeconds": 0.3
+  },
+  "ui_tick": {
+   "kind": "ui",
+   "duration": 0.66,
+   "lufs": -29.6,
+   "truePeak": -12.7,
+   "renderSeconds": 0.2
+  },
+  "ui_tick_urgent": {
+   "kind": "ui",
+   "duration": 0.76,
+   "lufs": -26.3,
+   "truePeak": -9.2,
+   "renderSeconds": 0.3
+  },
+  "ui_toggle_off": {
+   "kind": "ui",
+   "duration": 0.8,
+   "lufs": -26.3,
+   "truePeak": -11.4,
+   "renderSeconds": 0.3
+  },
+  "ui_toggle_on": {
+   "kind": "ui",
+   "duration": 0.8,
+   "lufs": -24.9,
+   "truePeak": -10.4,
+   "renderSeconds": 0.2
+  },
+  "ui_whoosh": {
+   "kind": "ui",
+   "duration": 0.42,
+   "lufs": null,
+   "truePeak": -10.2,
+   "renderSeconds": 0.2
+  }
+ }
+}

@@ -1,0 +1,10 @@
+node_modules/
+# dist/ est versionné : l'hébergeur lance directement le jeu compilé (aucune installation).
+dist/artifact/
+dist/**/*.map
+deploy/
+data/
+audio/.work/
+audio/**/__pycache__/
+*.log
+.DS_Store

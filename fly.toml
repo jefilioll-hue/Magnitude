@@ -1,0 +1,29 @@
+# Configuration Fly.io (https://fly.io) — `fly launch --copy-config` puis `fly deploy`.
+# Une seule machine : les salons vivent en mémoire du processus (voir README, « Mise à l'échelle »).
+app = "magnitude-jeu"
+primary_region = "cdg"
+
+[build]
+
+[env]
+  PORT = "8080"
+  DATA_DIR = "/data"
+  TRUST_PROXY = "1"
+
+[[mounts]]
+  source = "magnitude_data"
+  destination = "/data"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "suspend"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    path = "/healthz"
+    timeout = "3s"

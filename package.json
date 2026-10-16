@@ -1,0 +1,38 @@
+{
+  "name": "magnitude",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Magnitude — jeu d’estimation numérique en équipes, solo et multijoueur en ligne.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:artifact": "node scripts/build-artifact.mjs",
+    "start": "node dist/server.js",
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "tsc -p .",
+    "lint": "tsc -p . && node scripts/lint.mjs",
+    "test": "node --test 'tests/**/*.test.ts'",
+    "test:e2e": "node scripts/build.mjs && node scripts/build-artifact.mjs && node --test 'e2e/**/*.e2e.ts'",
+    "audio": "python3 audio/build.py",
+    "icons": "node scripts/icons.mjs",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build && npm run test:e2e"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "ws": "8.21.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/ws": "8.18.1",
+    "esbuild": "0.28.2",
+    "playwright": "1.56.0",
+    "typescript": "6.0.3"
+  }
+}
